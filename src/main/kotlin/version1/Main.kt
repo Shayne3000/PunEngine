@@ -44,7 +44,7 @@ class KnockKnockPun {
     }
 
     private fun punRepl() {
-        println("Enter a knock knock pun, start by saying: knock, knock")
+        println("Enter a knock knock pun. Start by saying: knock, knock")
         val knockGreeting = readln()
 
         if (knockGreeting.isEmpty()) {
